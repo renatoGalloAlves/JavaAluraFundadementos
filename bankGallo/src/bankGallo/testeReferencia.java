@@ -26,7 +26,7 @@ public class testeReferencia {
 			System.out.println("Mesma conta.");
 			} else {
 				System.out.println("Conta diferente.");
-			}
+		}
 	}
 
 }
