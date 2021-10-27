@@ -4,7 +4,7 @@ public class TestaMetodo {
 
 	public static void main(String[] args) {
 		Conta contaDoRenato = new Conta();
-			contaDoRenato.saldo = 100;
+			contaDoRenato.deposita(150);
 			contaDoRenato.deposita(50);
 		System.out.println(contaDoRenato.saldo);
 		
@@ -16,13 +16,11 @@ public class TestaMetodo {
 		
 		if(contaDaMarcela.transfere(300, contaDoRenato)) {
 			System.out.println("Transferencia com sucesso!");
-		}else {
+		}else { 
 			System.out.println("Faltou dinheiro!");
 		}
 		System.out.println(contaDaMarcela.saldo);
 		System.out.println(contaDoRenato.saldo);
 		
-	}
-	
-	
+	}	
 }
