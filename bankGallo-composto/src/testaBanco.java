@@ -11,7 +11,7 @@ public class testaBanco {
 		contaDoRenato.deposita(100);
 		
 		contaDoRenato.titular = renato;
-		System.out.println(contaDoRenato.titular);
+		System.out.println(contaDoRenato.titular.nome);
 		
 		
 	}
